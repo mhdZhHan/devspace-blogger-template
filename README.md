@@ -14,8 +14,8 @@ A light-weight 💣 blogger theme
 [devspace.min.xml](/devspace.min.xml)</br>
 [devspace.xml](/devspace.xml)
 
-### Home page screenshot
-![dev_space](/screenshots/ss_01.png)
-
 ### Demo 
 [DevSpace](https://blog-mohammedsh.blogspot.com/)
+
+### Home page screenshot
+![dev_space](/screenshots/ss_01.png)
