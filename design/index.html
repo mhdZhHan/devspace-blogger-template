@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DevSpace Blog</title>
+
+        <link rel="stylesheet" href="./styles/style.css" />
+        <script src="./App.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="header__wrapper">
+                <h1 class="logo"><a href="#">DevSpace</a></h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+
+                <div class="search_icon" id="search_toggle">
+                    <img src="./assets/search.svg" alt="search-icon" />
+                </div> <!--( .header__wrapper > .search_icon )-->
+
+                <div class="mobile_menu_icon">
+                    <img src="./assets/menu.svg" alt="hamberger" />
+                </div> <!--( .header__wrapper > .mobile_menu_icon )-->
+
+                <div class="mobile_menu_container">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div> <!--( .header__wrapper > .mobile_menu_container )-->
+
+                <div class="menu_close_icon">
+                    <img src="./assets/close.svg" alt="close_icon" />
+                </div> <!--( .header__wrapper > .menu_close_icon )-->
+
+                <div class="search_container" id="search_box">
+                    <div class="blog_search">
+                        <input type="text" placeholder="Search" />
+                        <input type="submit" value="Search" />
+                    </div> <!--( .header__wrapper > .search_container > .blog_search )-->
+                </div> <!--( .header__wrapper > .search_container )-->
+            </div> <!--( .header__wrapper )-->
+        </header>
+
+        <section id="spotlight">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="left">
+                        <h1 class="main__heading">DevSpace Template</h1>
+                        <p class="main__subheading">Learn to create blogger template.</p>
+                        <a href="#" class="button">Learn More</a>
+                    </div> <!--( #spotlight > .wrapper > .container > .left )-->
+        
+                    <div class="right">
+                        <div class="img__container">
+                            <img src="./assets/img04.jpg" alt="spotlight-image" />
+                        </div>
+                    </div> <!--( #spotlight > .wrapper > .container > .right )-->
+                </div> <!--( #spotlight > .wrapper > .container )-->
+            </div> <!--( #spotlight > .wrapper )-->
+        </section> <!--( #spotlight )-->
+
+        <section id="blog_posts">
+            <div class="wrapper">
+                <div class="head_title">
+                    <h2>Latest Blog Posts</h2>
+                </div> <!--( #blog_posts > .wrapper > .head_title)-->
+
+                <ul class="blog_posts_list">
+                    <li class="blog_post">
+                        <div class="post_thumbnail">
+                            <div class="post_labels">
+                                <img src="./assets/label.svg" alt="label-icon" />
+                                <a href="#">Technology</a>,
+                                <a href="#">Blogging</a>
+                            </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail > .post_labels )-->
+                            <img src="./assets/img01.jpg" alt="thumbnail" />
+                        </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail )-->
+
+                        <h3 class="post__title">Title of the blog post</h3>
+                        <span class="post__date">Posted on 10th oct, 2022</span>
+                        <div class="post__body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <a href="#" class="read_more_button">Read More</a>
+                        </div>
+                    </li> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post )-->
+
+                    <li class="blog_post">
+                        <div class="post_thumbnail">
+                            <div class="post_labels">
+                                <img src="./assets/label.svg" alt="label-icon" />
+                                <a href="#">Technology</a>,
+                                <a href="#">Blogging</a>
+                            </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail > .post_labels )-->
+                            <img src="./assets/img02.jpg" alt="thumbnail" />
+                        </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail )-->
+
+                        <h3 class="post__title">Title of the blog post</h3>
+                        <span class="post__date">Posted on 10th oct, 2022</span>
+                        <div class="post__body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <a href="#" class="read_more_button">Read More</a>
+                        </div>
+                    </li> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post )-->
+
+                    <li class="blog_post">
+                        <div class="post_thumbnail">
+                            <div class="post_labels">
+                                <img src="./assets/label.svg" alt="label-icon" />
+                                <a href="#">Technology</a>,
+                                <a href="#">Blogging</a>
+                            </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail > .post_labels )-->
+                            <img src="./assets/img04.jpg" alt="thumbnail" />
+                        </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail )-->
+
+                        <h3 class="post__title">Title of the blog post</h3>
+                        <span class="post__date">Posted on 10th oct, 2022</span>
+                        <div class="post__body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <a href="#" class="read_more_button">Read More</a>
+                        </div>
+                    </li> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post )-->
+
+                    <li class="blog_post">
+                        <div class="post_thumbnail">
+                            <div class="post_labels">
+                                <img src="./assets/label.svg" alt="label-icon" />
+                                <a href="#">Technology</a>,
+                                <a href="#">Blogging</a>
+                            </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail > .post_labels )-->
+                            <img src="./assets/img04.jpg" alt="thumbnail" />
+                        </div> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post > .post_thumbnail )-->
+
+                        <h3 class="post__title">Title of the blog post</h3>
+                        <span class="post__date">Posted on 10th oct, 2022</span>
+                        <div class="post__body">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Reiciendis esse adipisci omnis, provident doloremque assumenda, 
+                                iusto id nulla quos cumque saepe velit dignissimos ut. Facere laborum repudiandae dicta doloribus! Saepe.
+                            </p>
+                            <a href="#" class="read_more_button">Read More</a>
+                        </div>
+                    </li> <!--( #blog_posts > .wrapper > .blog_posts_list > .blog_post )-->
+                </ul> <!--( #blog_posts > .wrapper > .blog_posts_list )-->
+            </div> <!--( #blog_posts > .wrapper )-->
+        </section> <!--( #blog_posts )-->
+
+        <section id="popular_posts">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="head_title">
+                        <h2>Popular Posts</h2>
+                    </div> <!--( #popular_posts > .wrapper > .container > .head_title )-->
+    
+                    <ul class="popular_posts">
+                        <li class="popular_post">
+                            <img class="thumbnail" src="./assets/img01.jpg" alt="thumbnail" />
+                            <h3 class="popular_post_title">My post title</h3>
+                        </li>
+                        <li class="popular_post">
+                            <img class="thumbnail" src="./assets/img02.jpg" alt="thumbnail" />
+                            <h3 class="popular_post_title">My post title</h3>
+                        </li>
+                        <li class="popular_post">
+                            <img class="thumbnail" src="./assets/img03.jpg" alt="thumbnail" />
+                            <h3 class="popular_post_title">My post title</h3>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!--( #popular_posts > .wrapper )-->
+        </section> <!--( #popular_posts )-->
+
+        <section id="contact">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="head_title">
+                        <h2>Contact Us</h2>
+                    </div> <!--( #contact > .wrapper > .container > .head_title )-->
+    
+                    <form action="">
+                        <input type="text" placeholder="Full Name" />
+                        <input type="email" placeholder="Work Email" />
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send" />
+                    </form>
+                </div>
+            </div> <!--( #contact > .wrapper )-->
+        </section> <!--( #contact )-->
+
+        <footer>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="left">
+                        <h1 class="logo"><a href="#">DevSpace</a></h1>
+                    </div> <!--( footer > .wrapper > .container > .left )-->
+                    <div class="center">
+                        <h4 class="list__title">Quick Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div> <!--( footer > .wrapper > .container > .center )-->
+                    <div class="right">
+                        <h4 class="list__title">Folow us on</h4>
+                        <ul class="social_icons">
+                            <li><a href=""><img src="./assets/facebook.svg" alt="facebook" /></a></li>
+                            <li><a href=""><img src="./assets/instagram.svg" alt="instagram" /></a></li>
+                            <li><a href=""><img src="./assets/twitter.svg" alt="twitter" /></a></li>
+                        </ul>
+                        <p>
+                            Developed by <a href="https://mohammedsh.com" target="_blank">mohammedsh.com</a> &copy; 2022
+                        </p>
+                    </div> <!--( footer > .wrapper > .container > .right )-->
+                </div> <!--( footer > .wrapper > .container )-->
+            </div> <!--( footer > .wrapper )-->
+        </footer>
+    </body>
+</html>
