@@ -1,7 +1,7 @@
 # DevSpace Blogger Template
 A light-weight 💣 blogger theme
 
-![dev_space]('https://github.com/mohammedshajahan7/DevSpace-Blogger-Template/blob/main/screenshots/home.png')
+![dev_space](/screenshots/home.png)
 
 ## Features ✨
 * Open source
@@ -11,8 +11,11 @@ A light-weight 💣 blogger theme
 * Responsive comment box
 
 ## Download
-[devspace.min.xml](https://github.com/mohammedshajahan7/DevSpace-Blogger-Template/blob/main/devspace.min.xml)
-[devspace.xml](https://github.com/mohammedshajahan7/DevSpace-Blogger-Template/blob/main/devspace.xml)
+[devspace.min.xml](/devspace.min.xml)</br>
+[devspace.xml](/devspace.xml)
+
+### Home page screenshot
+![dev_space](/screenshots/ss_01.png)
 
 ### Demo 
 [DevSpace](https://blog-mohammedsh.blogspot.com/)
