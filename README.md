@@ -10,11 +10,9 @@ A light-weight 💣 blogger theme
 * No credit links
 * Responsive comment box
 
-## Download
-[devspace.min.xml](/devspace.min.xml)</br>
-[devspace.xml](/devspace.xml)
-
-### [How to install blogger template](/install.md)
+## Download && Install
+[template.zip](https://github.com/mohammedshajahan7/devspace-blogger-template/releases/download/blogger-template/template.zip)</br>
+[How to install blogger template](/INSTALL.md)
 
 ### Demo 
 [DevSpace](https://blog-mohammedsh.blogspot.com/)
