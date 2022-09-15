@@ -14,6 +14,8 @@ A light-weight 💣 blogger theme
 [devspace.min.xml](/devspace.min.xml)</br>
 [devspace.xml](/devspace.xml)
 
+### [How to install blogger template](/install.md)
+
 ### Demo 
 [DevSpace](https://blog-mohammedsh.blogspot.com/)
 
